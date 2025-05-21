@@ -19,8 +19,8 @@ button = tk.Button(root, text="привітатись", command=name)
 label2 = tk.Label(root, text="")
 
 def bg():
-    dick_with_colors = ["blue", "red", "yellow", "green"]
-    color = random.choice(dick_with_colors)
+   colors = ["blue", "red", "yellow", "green"]
+    color = random.choice(colors)
     root.config(bg=color)
 label3 = tk.Label(root, text="натисни кнопку щоб змінти колір фону")
 button2 = tk.Button(root, text="Змінити колір", command=bg)
