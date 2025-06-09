@@ -50,7 +50,7 @@ def set_theme(theme):
 def set_font(fonts):
     display.config(font=(fonts, 18))
     for button in buttons:
-        button.config(font=(fonts, 18))
+        button.config(font=(fonts, 18), width=5, height=2)
 
 # Головне вікно
 root = tk.Tk()
