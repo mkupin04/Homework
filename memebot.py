@@ -3,8 +3,8 @@ import random
 import os
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 
-TOKEN = "TOKEN"
-bot = telebot.TeleBot(TOKEN) # Тут потрібно вказати TOKEN телеграм бота
+TOKEN = "TOKEN" # Тут потрібно вказати TOKEN телеграм бота
+bot = telebot.TeleBot(TOKEN) 
 
 UPLOAD_FOLDER = "" # Тут потрібно вказати шлях до папки з мемами
 
