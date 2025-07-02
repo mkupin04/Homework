@@ -3,10 +3,10 @@ import random
 import os
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 
-TOKEN = "7185174306:AAHowuwl7KR0LWBwdttLCX8nrfpvyBKcGcA"
-bot = telebot.TeleBot(TOKEN)
+TOKEN = "TOKEN"
+bot = telebot.TeleBot(TOKEN) # Тут потрібно вказати TOKEN телеграм бота
 
-UPLOAD_FOLDER = "C:/Users/Максим/OneDrive/Dokumenty/python/Create bot API/Меми/"
+UPLOAD_FOLDER = "" # Тут потрібно вказати шлях до папки з мемами
 
 memes = os.listdir(UPLOAD_FOLDER)
 
