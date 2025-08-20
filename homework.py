@@ -9,7 +9,8 @@ plt.figure(figsize=(12, 6))
 plt.plot(grop_df.index, grop_df.values, color="b") 
 
 plt.xlabel("Рік")
-plt.ylabel("Бюджет")
+plt.ylabel("Бюджет в млн $")
 plt.title("Середній бюджет фільмів кожного року")
 
 plt.show()
+
